@@ -11,10 +11,10 @@ public class MediaItem {
     private String location;
 
     public MediaItem() {
-        type = new String();
-        text = new String();
+        type = "";
+        text = "";
         value = null;
-        location = new String();
+        location = "";
     }
 
     public String getType() {
